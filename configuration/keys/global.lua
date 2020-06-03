@@ -259,7 +259,7 @@ local globalKeys =
     {description = 'show weather', group = 'widgets'}
   ),--]]
   -- Brightness
-  awful.key(
+  --[[awful.key(
     {},
     'XF86MonBrightnessUp',
     function()
@@ -274,7 +274,7 @@ local globalKeys =
       awful.spawn('xbacklight -dec 10')
     end,
     {description = '-10%', group = 'hotkeys'}
-  ),
+  ),]]
   -- ALSA volume control
   awful.key(
     {},
@@ -347,7 +347,7 @@ local globalKeys =
     {description = 'open default program for tag/workspace', group = 'tag'}
   ),
   -- Custom hotkeys
-  -- vfio integration
+  --[[vfio integration
   awful.key(
     {'Control',altkey},
     'space',
@@ -362,7 +362,7 @@ local globalKeys =
     function()
       awful.util.spawn_with_shell('lutris')
     end
-  ),
+  ),]]
   -- System Monitor hotkey - MATE version
   awful.key(
     {modkey},
