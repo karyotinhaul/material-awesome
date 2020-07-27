@@ -18,9 +18,9 @@ return {
     
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'google-chrome-stable',
+    browser = 'brave',
     editor = 'gedit', -- gui text editor
-    social = 'whatsapp-nativefier',
+    social = 'discord',
     game = 'steam',
     files = 'nautilus -w',
     music = 'spotify'
